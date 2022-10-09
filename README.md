@@ -1,0 +1,3 @@
+Demonstration of a multi-sig wallet generator contract with simple UI. The contract uses create2 to deploy new multisig wallet contracts based on user specifications. The wallets can then be interacted with using the UI. Wallet functions are encoded as calldata so transactions can be proposed and users can sign them off-chain. 
+
+Uses a Moralis server as backend to store signatures and transaction info.
